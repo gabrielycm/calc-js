@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin:0;
+}
+#visor {
+    border:2px solid pink;
+    size: 15px;
+    outline: none;
+}
+.forma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botao {
+    cursor: crosshair;
+    outline:none;
+    margin: 5px;
+    padding: 10px;
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+    size: 15px;
+}.botao1 {
+    cursor: crosshair;
+    outline:none;
+    margin: 5px;
+    padding: 10px;
+    background-color:rgb(216, 133, 147);
+    border: none;
+    border-radius: 10px;
+    size: 15px;
+}
