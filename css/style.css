@@ -2,18 +2,32 @@
     padding: 0;
     margin:0;
 }
+
 #visor {
+    font-size: 20px;
     border:2px solid pink;
-    size: 15px;
+    size: 10px;
+    width: 12vw;
     outline: none;
+    margin-bottom: 10px;
+}
+.box {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
 }
 .forma{
+    width: 18vw;
+    height: 20vw;
+    border: 2px solid pink;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .botao {
+    font-size: 15px;
     cursor: crosshair;
     outline:none;
     margin: 5px;
