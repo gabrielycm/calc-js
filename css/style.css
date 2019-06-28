@@ -2,31 +2,40 @@
     padding: 0;
     margin:0;
 }
-
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+.numeros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 37vh;
+}
 #visor {
-    font-size: 20px;
+    font-size: 18px;
     border:2px solid pink;
-    size: 10px;
-    width: 12vw;
     outline: none;
-    margin-bottom: 10px;
+}
+.forma {
+    border: 2px solid pink;
+    border-radius: 10px;
+    width: 29vw;
+    height: 45vh;
 }
 .box {
     display: flex;
     width: 100vw;
     justify-content: center;
-}
-.forma{
-    width: 18vw;
-    height: 20vw;
-    border: 2px solid pink;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 .botao {
+    width: 30px;
+    height: 35px;
     font-size: 15px;
     cursor: crosshair;
     outline:none;
@@ -35,8 +44,10 @@
     background-color: pink;
     border: none;
     border-radius: 10px;
-    size: 15px;
-}.botao1 {
+}
+.botao1 {
+    width: 30px;
+    height: 35px;
     cursor: crosshair;
     outline:none;
     margin: 5px;
@@ -44,5 +55,126 @@
     background-color:rgb(216, 133, 147);
     border: none;
     border-radius: 10px;
-    size: 15px;
+}
+.box-2{
+    width: 14vw;
+    height: 5vw;
+}
+@media screen and (max-width:1230px) {
+    .box-2 {
+        width: 16vw;
+    }
+}
+@media screen and (max-width:1085px) {
+    .box-2 {
+        width: 23vw;
+        height: 35vh;
+    }
+    #visor{
+        width: 20vw;
+    }
+    .numeros {
+        height: 44vh;
+    }
+    .forma {
+        height: 54vh;
+    }
+    .meio {
+        height: 9vh;
+    }
+}
+@media screen and (max-width:750px) {
+    .forma {
+        padding: 15px;
+    }
+    .box-2 {
+        width: 25vw;
+        height: 37vh;
+    }
+    
+}
+@media screen and (max-width:538px) {
+    .forma {
+        width: 49vw;
+        height: 58vh;
+    }
+    .box-2 {
+        width: 35vw;
+    }
+    .numeros {
+        width: 50vw;
+        height: 40vh;
+    }
+}
+@media screen and (max-width:491px) {
+    .box-2{
+        width: 40vw;
+    }
+    #visor {
+        width: 36vw;
+    }
+}
+@media screen and (max-width:430px) {
+    .box-2{
+        width: 45vw;
+    }
+    #visor {
+        width: 38vw;
+    }
+}
+@media screen and (max-width:382px) {
+    .box-2 {
+        width: 50vw;
+    }
+    #visor {
+        width: 44vw;
+    }
+}
+@media screen and (max-width:344px){
+    .box-2 {
+        width: 58vw;
+    }
+}
+@media screen and (max-width:297px){
+    .forma {
+        width: 65vw;
+        height: 58vh;
+    }
+    #visor{
+        width: 66vw;
+    }
+    .box-2 {
+        width: 72vw;
+    }
+    .numeros {
+        width: 68vw;
+    }
+}
+@media screen and (max-width:239px) {
+    .box-2 {
+        width: 79vw;
+    }
+}
+@media screen and (max-width:218px) {
+    .box-2{
+        width: 84vw;
+    }
+    #visor {
+        width:70vw;
+    }
+}
+@media screen and (max-width:205px) {
+    .box-2{
+        width: 90vw;
+    }
+}
+@media screen and (max-width:192px) {
+    .box-2{
+        width: 93vw;
+    }
+}
+@media screen and (max-width:185px) {
+    .box-2{
+        width: 96vw;
+    }
 }
